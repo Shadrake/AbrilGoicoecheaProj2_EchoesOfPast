@@ -18,13 +18,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
-/Users/2a3d/Desktop/AbrilGoicoechea_2A3D/Unity/AbrilGoicoecheaProj2_EchoesOfPast/EchoesOfLife_AbrilGoicoecheaProj2
+/Users/2a3d/Desktop/AbrilGoicoechea_2A3D/Unity/AbrilGoicoecheaProj2_EchoesOfLife/EchoesOfLife_AbrilGoicoecheaProj2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49556
-Successfully changed project path to: /Users/2a3d/Desktop/AbrilGoicoechea_2A3D/Unity/AbrilGoicoecheaProj2_EchoesOfPast/EchoesOfLife_AbrilGoicoecheaProj2
-/Users/2a3d/Desktop/AbrilGoicoechea_2A3D/Unity/AbrilGoicoecheaProj2_EchoesOfPast/EchoesOfLife_AbrilGoicoecheaProj2
+49878
+Successfully changed project path to: /Users/2a3d/Desktop/AbrilGoicoechea_2A3D/Unity/AbrilGoicoecheaProj2_EchoesOfLife/EchoesOfLife_AbrilGoicoecheaProj2
+/Users/2a3d/Desktop/AbrilGoicoechea_2A3D/Unity/AbrilGoicoecheaProj2_EchoesOfLife/EchoesOfLife_AbrilGoicoecheaProj2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -58,16 +58,16 @@ Successfully changed project path to: /Users/2a3d/Desktop/AbrilGoicoechea_2A3D/U
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8663830336]  Target information:
 
-Player connection [8663830336]  * "[IP] 172.30.3.133 [Port] 0 [Flags] 2 [Guid] 331215113 [EditorId] 331215113 [Version] 1048832 [Id] OSXEditor(0,iMac-de-ITBAdmin.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8663830336]  * "[IP] 172.30.3.133 [Port] 0 [Flags] 2 [Guid] 390579327 [EditorId] 390579327 [Version] 1048832 [Id] OSXEditor(0,iMac-de-ITBAdmin.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8663830336] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8663830336] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-Refreshing native plugins compatible for Editor in 8.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 16.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.46f1 (8e9b8558c41a)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.46f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/2a3d/Desktop/AbrilGoicoechea_2A3D/Unity/AbrilGoicoecheaProj2_EchoesOfPast/EchoesOfLife_AbrilGoicoecheaProj2/Assets
+[Subsystems] Discovering subsystems at path /Users/2a3d/Desktop/AbrilGoicoechea_2A3D/Unity/AbrilGoicoecheaProj2_EchoesOfLife/EchoesOfLife_AbrilGoicoecheaProj2/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
  preferred device: Apple M3 (high power)
 Metal devices available: 1
@@ -78,49 +78,133 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.46f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.46f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.46f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56286
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56890
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.46f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.46f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.46f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.003474 seconds.
-- Loaded All Assemblies, in  0.223 seconds
+Registered in 0.003200 seconds.
+- Loaded All Assemblies, in  0.207 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 59 ms
+Unable to list connected devices. 
+* daemon not running; starting now at tcp:5037
+ADB server didn't ACK
+Full server startup log: /var/folders/wy/0sn1706d6rbcvrmp0c8831dr0000gq/T//adb.503.log
+Server had pid: 3902
+--- adb starting (pid 3902) ---
+adb I 03-21 15:26:04  3902 35505 main.cpp:63] Android Debug Bridge version 1.0.41
+adb I 03-21 15:26:04  3902 35505 main.cpp:63] Version 32.0.0-8006631
+adb I 03-21 15:26:04  3902 35505 main.cpp:63] Installed as /Applications/Unity/Hub/Editor/2022.3.46f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
+adb I 03-21 15:26:04  3902 35505 main.cpp:63] 
+adb I 03-21 15:26:04  3903 35506 main.cpp:63] Android Debug Bridge version 1.0.41
+adb I 03-21 15:26:04  3903 35506 main.cpp:63] Version 32.0.0-8006631
+adb I 03-21 15:26:04  3903 35506 main.cpp:63] Installed as /Applications/Unity/Hub/Editor/2022.3.46f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
+adb I 03-21 15:26:04  3903 35506 main.cpp:63] 
+adb I 03-21 15:26:04  3903 35506 auth.cpp:417] adb_auth_init...
+adb I 03-21 15:26:04  3903 35506 auth.cpp:152] loaded new key from '/Users/2a3d/.android/adbkey' with fingerprint 4B4EB301549C5D89D347B2ED2A24E13E722E7E8ACF66E8283437A89F26B48D02
+adb F 03-21 15:26:04  3902 35505 main.cpp:167] could not install *smartsocket* listener: Address already in use
+
+* failed to start daemon
+adb: failed to check server version: cannot connect to daemon
+
+UnityEditor.Android.CommandInvokationFailure: Unable to list connected devices. 
+/Applications/Unity/Hub/Editor/2022.3.46f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb devices
+
+Environment Variables:
+XPC_SERVICE_NAME = application.com.unity3d.unityhub.7793964.7793970
+XPC_FLAGS = 0x0
+MallocNanoZone = 0
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+SHELL = /bin/zsh
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.6hCV9VzchI/Listeners
+HOME = /Users/2a3d
+PATH = /usr/bin:/bin:/usr/sbin:/sbin
+__CFBundleIdentifier = com.unity3d.unityhub
+USER = 2a3d
+__CF_USER_TEXT_ENCODING = 0x1F7:0x0:0x8
+TMPDIR = /var/folders/wy/0sn1706d6rbcvrmp0c8831dr0000gq/T/
+LOGNAME = 2a3d
+COMMAND_MODE = unix2003
+
+
+stderr[
+* daemon not running; starting now at tcp:5037
+ADB server didn't ACK
+Full server startup log: /var/folders/wy/0sn1706d6rbcvrmp0c8831dr0000gq/T//adb.503.log
+Server had pid: 3902
+--- adb starting (pid 3902) ---
+adb I 03-21 15:26:04  3902 35505 main.cpp:63] Android Debug Bridge version 1.0.41
+adb I 03-21 15:26:04  3902 35505 main.cpp:63] Version 32.0.0-8006631
+adb I 03-21 15:26:04  3902 35505 main.cpp:63] Installed as /Applications/Unity/Hub/Editor/2022.3.46f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
+adb I 03-21 15:26:04  3902 35505 main.cpp:63] 
+adb I 03-21 15:26:04  3903 35506 main.cpp:63] Android Debug Bridge version 1.0.41
+adb I 03-21 15:26:04  3903 35506 main.cpp:63] Version 32.0.0-8006631
+adb I 03-21 15:26:04  3903 35506 main.cpp:63] Installed as /Applications/Unity/Hub/Editor/2022.3.46f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
+adb I 03-21 15:26:04  3903 35506 main.cpp:63] 
+adb I 03-21 15:26:04  3903 35506 auth.cpp:417] adb_auth_init...
+adb I 03-21 15:26:04  3903 35506 auth.cpp:152] loaded new key from '/Users/2a3d/.android/adbkey' with fingerprint 4B4EB301549C5D89D347B2ED2A24E13E722E7E8ACF66E8283437A89F26B48D02
+adb F 03-21 15:26:04  3902 35505 main.cpp:167] could not install *smartsocket* listener: Address already in use
+
+* failed to start daemon
+adb: failed to check server version: cannot connect to daemon
+]
+stdout[
+
+]
+exit code: 1
+  at UnityEditor.Android.Command.WaitForProgramToRun (UnityEditor.Utils.Program p, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00033] in <2ef16115290e43d1b0a841ac7b4ec3eb>:0 
+  at UnityEditor.Android.Command.Run (System.Diagnostics.ProcessStartInfo psi, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00017] in <2ef16115290e43d1b0a841ac7b4ec3eb>:0 
+  at UnityEditor.Android.Command.Run (System.String command, System.String args, System.String workingdir, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0000a] in <2ef16115290e43d1b0a841ac7b4ec3eb>:0 
+  at UnityEditor.Android.ADB.RunInternal (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0001e] in <2ef16115290e43d1b0a841ac7b4ec3eb>:0 
+  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00013] in <2ef16115290e43d1b0a841ac7b4ec3eb>:0 
+  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x002ae] in <2ef16115290e43d1b0a841ac7b4ec3eb>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Android.AndroidDeploymentTargetsExtension:GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,UnityEditor.ProgressHandler)
+UnityEditor.Android.TargetScanWorker:ScanSync ()
+UnityEditor.Android.TargetExtension:OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[])
+UnityEditor.Android.TargetExtension:OnLoad ()
+UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules () (at /Users/bokken/build/output/unity/unity/Editor/Mono/Modules/ModuleManager.cs:147)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Modules/ModuleManager.cs Line: 147)
+
+Android Extension - Scanning For ADB Devices 758 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.205 seconds
-Domain Reload Profiling: 429ms
-	BeginReloadAssembly (83ms)
+- Finished resetting the current domain, in  0.899 seconds
+Domain Reload Profiling: 1106ms
+	BeginReloadAssembly (77ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (85ms)
-		LoadAssemblies (83ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (80ms)
+		LoadAssemblies (78ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (82ms)
-			TypeCache.Refresh (81ms)
-				TypeCache.ScanAssembly (74ms)
+		AnalyzeDomain (79ms)
+			TypeCache.Refresh (78ms)
+				TypeCache.ScanAssembly (70ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (205ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (899ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (182ms)
+		SetupLoadedEditorAssemblies (876ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (110ms)
+			InitializePlatformSupportModulesInManaged (804ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (48ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
+			ProcessInitializeOnLoadAttributes (50ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -129,53 +213,53 @@ Domain Reload Profiling: 429ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.356 seconds
+- Loaded All Assemblies, in  0.288 seconds
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.274 seconds
-Domain Reload Profiling: 631ms
-	BeginReloadAssembly (68ms)
+- Finished resetting the current domain, in  0.281 seconds
+Domain Reload Profiling: 569ms
+	BeginReloadAssembly (70ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (15ms)
-	RebuildCommonClasses (18ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (247ms)
-		LoadAssemblies (175ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (174ms)
+		LoadAssemblies (100ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (104ms)
-			TypeCache.Refresh (96ms)
-				TypeCache.ScanAssembly (83ms)
+		AnalyzeDomain (105ms)
+			TypeCache.Refresh (95ms)
+				TypeCache.ScanAssembly (84ms)
 			ScanForSourceGeneratedMonoScriptInfo (6ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (275ms)
+	FinalizeReload (281ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (191ms)
+		SetupLoadedEditorAssemblies (196ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
+			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (25ms)
-			ProcessInitializeOnLoadAttributes (147ms)
+			BeforeProcessingInitializeOnLoad (27ms)
+			ProcessInitializeOnLoadAttributes (150ms)
 			ProcessInitializeOnLoadMethodAttributes (9ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.46f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3121 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (48.5 KB). Loaded Objects now: 3589.
-Memory consumption went from 124.8 MB to 124.7 MB.
-Total: 2.923125 ms (FindLiveObjects: 0.138542 ms CreateObjectMapping: 0.032125 ms MarkObjects: 1.867000 ms  DeleteObjects: 0.885042 ms)
+Unloading 19 unused Assets / (48.6 KB). Loaded Objects now: 3589.
+Memory consumption went from 124.6 MB to 124.6 MB.
+Total: 2.584875 ms (FindLiveObjects: 0.326417 ms CreateObjectMapping: 0.050041 ms MarkObjects: 2.104458 ms  DeleteObjects: 0.103125 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -192,57 +276,97 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1205.145467 seconds.
-  path: Assets/AGG/Scenes
-  artifactKey: Guid(dd6e9719af9174e09b3ccdbbec898f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AGG/Scenes using Guid(dd6e9719af9174e09b3ccdbbec898f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '5adc933ac804bbaf56cd52f8de3acd3d') in 0.001066 seconds
+  Time since last request: 1660.951369 seconds.
+  path: Assets/AGG/Sprites
+  artifactKey: Guid(85909959436c746719dd7f794bf80b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AGG/Sprites using Guid(85909959436c746719dd7f794bf80b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '98288af768f96a102140de6e185b4cc8') in 0.006863 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 5.725626 seconds.
-  path: Assets/AGG/Level1
-  artifactKey: Guid(dd6e9719af9174e09b3ccdbbec898f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AGG/Level1 using Guid(dd6e9719af9174e09b3ccdbbec898f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '20fd678a3a4cc03d534970d16341344a') in 0.000262 seconds
+  Time since last request: 13.815490 seconds.
+  path: Assets/AGG/Sprites/LDD_Map.png
+  artifactKey: Guid(703698c732e5445b898557af536fbfa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AGG/Sprites/LDD_Map.png using Guid(703698c732e5445b898557af536fbfa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5fa019565e7655ddab383d1e41c6135c') in 0.089326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 831.047947 seconds.
+  path: Assets/AGG/Sprites/Blocking
+  artifactKey: Guid(5f60891bfddf7461b972c596ae4de4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AGG/Sprites/Blocking using Guid(5f60891bfddf7461b972c596ae4de4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7b99b1a9589e6accc735f0703fc495a5') in 0.001661 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 13.500385 seconds.
-  path: Assets/AGG/scenes
-  artifactKey: Guid(dd6e9719af9174e09b3ccdbbec898f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AGG/scenes using Guid(dd6e9719af9174e09b3ccdbbec898f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '8af47c23ac788037c53e240e712a31e6') in 0.000268 seconds
+  Time since last request: 191.538942 seconds.
+  path: Assets/AGG/Sprites/Blocking/ElementoBlocking.png
+  artifactKey: Guid(6a8ab5ea1cdd04c09838c14ac0024fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AGG/Sprites/Blocking/ElementoBlocking.png using Guid(6a8ab5ea1cdd04c09838c14ac0024fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '51b51dbbe7aba963c088b97f1b3a3477') in 0.070185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.759616 seconds.
+  path: Assets/AGG/Sprites/Blocking/LDD_Map.png
+  artifactKey: Guid(703698c732e5445b898557af536fbfa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AGG/Sprites/Blocking/LDD_Map.png using Guid(703698c732e5445b898557af536fbfa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0a0f21180d7108613b1ceb0782f09f17') in 0.075211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 22.334624 seconds.
+  path: Assets/AGG/Sprites/Blocking/ElementoBlocking.png
+  artifactKey: Guid(6a8ab5ea1cdd04c09838c14ac0024fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AGG/Sprites/Blocking/ElementoBlocking.png using Guid(6a8ab5ea1cdd04c09838c14ac0024fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4ce0478e57ad3049174cecc56dc51323') in 0.056979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 939.567539 seconds.
+  path: Assets/AGG/Sprites/Shawn
+  artifactKey: Guid(3b79ee8290377414bb9c3498254c5ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AGG/Sprites/Shawn using Guid(3b79ee8290377414bb9c3498254c5ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '445ba8a8e6f5484de77070b31f0447df') in 0.001173 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 4.027141 seconds.
-  path: Assets/AGG/Ccenes
-  artifactKey: Guid(dd6e9719af9174e09b3ccdbbec898f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AGG/Ccenes using Guid(dd6e9719af9174e09b3ccdbbec898f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '5666790a5e5701b474f334e1df1809d2') in 0.000300 seconds
+  Time since last request: 5.303425 seconds.
+  path: Assets/AGG/Sprites/Personajes
+  artifactKey: Guid(3c3c915b079ca4efcac09fe3bf99d893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AGG/Sprites/Personajes using Guid(3c3c915b079ca4efcac09fe3bf99d893) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1745c4a477e7ae90ee6460f373770d7d') in 0.000385 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 5.402842 seconds.
-  path: Assets/AGG/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AGG/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '2418d44e161e3ce2e8daeaa5c00c20e4') in 0.000538 seconds
+  Time since last request: 3073.705263 seconds.
+  path: Assets/AGG/Sprites/Personajes/Shawn/Shawn_PlaceHolder.png
+  artifactKey: Guid(d00070b44ed3d437ca361d72190214a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AGG/Sprites/Personajes/Shawn/Shawn_PlaceHolder.png using Guid(d00070b44ed3d437ca361d72190214a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd648178882017330e2367e1738ff8c41') in 0.055145 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 7.821680 seconds.
-  path: Assets/AGG/Scenes/scn_Lvl1.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AGG/Scenes/scn_Lvl1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '708acce309b393ad990df4d2ab210c8c') in 0.000395 seconds
+  Time since last request: 7.294718 seconds.
+  path: Assets/AGG/Sprites/Personajes/Shawn/Shawn_PlaceHolder.png
+  artifactKey: Guid(d00070b44ed3d437ca361d72190214a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AGG/Sprites/Personajes/Shawn/Shawn_PlaceHolder.png using Guid(d00070b44ed3d437ca361d72190214a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '12dde273d2e934ae2742af9adfed8caa') in 0.059752 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-TcpMessagingSession - receive error
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+Number of asset objects unloaded after import = 3
