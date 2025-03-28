@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [Header("Player Settings")]
+    
     // Movimiento del personaje
-    public float speed, jumpHeight;
+    public float speed, jumpForce = 200f;
     float velX, velY;
-    Rigidbody2D rb;
+    Rigidbody2D rbPlayer;
 
     // Detección del suelo
     public Transform groundCheck;
@@ -16,14 +16,22 @@ public class PlayerController : MonoBehaviour
     public float groundCheckRadius;
     public LayerMask whatIsGround;
 
+    // Disparo
+    [Header("Bullet Settings")]
+    public GameObject projectilePrefab; 
+    private float lastTimeShoot; 
+    public float timeDelayShoot = 0.25f; 
+    public GameObject weaponPositionInstantiate;
+
     // Animaciones
+    [Header("Component Settings")]
     public Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
         // Almacenamos el componente en la variable correspondiente.
-        rb = GetComponent<Rigidbody2D>();
+        rbPlayer = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
 
@@ -34,6 +42,12 @@ public class PlayerController : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
 
         FlipCharacter();
+
+        if(Input.GetButton("Fire1") && (Time.time > lastTimeShoot * timeDelayShoot))
+        {
+            Shoot();
+            lastTimeShoot = Time.time;
+        }
     }
 
     // Lo que tenga que ver con físicas es mejor en el FixedUpdate. Por tema de frames evita que en cada ordenador se vea diferente.
@@ -48,20 +62,20 @@ public class PlayerController : MonoBehaviour
     {
         // Hacemos que se mueva correctamente al pulsar las teclas de movimiento
         velX = Input.GetAxisRaw("Horizontal");
-        velY = rb.velocity.y;
+        velY = rbPlayer.velocity.y;
 
-        rb.velocity = new Vector2(velX * speed, velY);
+        rbPlayer.velocity = new Vector2(velX * speed, velY);
     }
 
      public void FlipCharacter()
     {
         // Rotamos el personaje cuando cambia de dirección.
-        if((rb.velocity.x > 0)||velX ==1)
+        if((rbPlayer.velocity.x > 0)||velX ==1)
         {
             transform.localScale = new Vector3(1,1,1);//md
         }
-        else
-            if(Input.GetAxisRaw("Horizontal")==-1)
+
+        else if(Input.GetAxisRaw("Horizontal")==-1)
         {
             transform.localScale = new Vector3(-1,1,1);//mi
         }
@@ -71,7 +85,26 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetButton("Jump") && isGrounded)
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
+            rbPlayer.AddForce(Vector2.up * jumpForce);
         }
+    }
+
+    public void Shoot()
+    {
+        Vector3 direction;
+
+        if(transform.localScale.x == 1.0f)
+        {
+            direction = Vector3.right; //dcha
+        }
+        else
+        {
+            direction = Vector3.left; //izq
+        }
+
+        GameObject projectile = Instantiate(projectilePrefab,
+        weaponPositionInstantiate.transform.position + direction * 0.01f, Quaternion.identity);
+
+        projectile.GetComponent<PlayerProjectile>().SetDirection(direction);
     }
 }
