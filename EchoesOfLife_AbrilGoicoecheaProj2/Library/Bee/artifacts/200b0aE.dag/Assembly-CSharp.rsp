@@ -358,7 +358,8 @@
 "Assets/AGG/Scripts/CH/PlayerController.cs"
 "Assets/AGG/Scripts/CH/PlayerProjectile.cs"
 "Assets/AGG/Scripts/Enemies/Enemy.cs"
-"Assets/AGG/Scripts/FollowCamera.cs"
+"Assets/AGG/Scripts/Escenary/FollowCamera.cs"
+"Assets/AGG/Scripts/Escenary/Lamp.cs"
 -langversion:9.0
 /deterministic
 /optimize+

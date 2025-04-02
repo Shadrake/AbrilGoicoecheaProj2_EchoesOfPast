@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     // Movimiento del personaje
     public float speed, jumpForce = 200f;
     float velX, velY;
-    Rigidbody2D rbPlayer;
+    Rigidbody2D _rbPlayer;
 
     // Detección del suelo
     public Transform groundCheck;
@@ -25,14 +25,14 @@ public class PlayerController : MonoBehaviour
 
     // Animaciones
     [Header("Component Settings")]
-    public Animator animator;
+    public Animator _animator;
 
     // Start is called before the first frame update
     void Start()
     {
         // Almacenamos el componente en la variable correspondiente.
-        rbPlayer = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
+        _rbPlayer = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -62,15 +62,15 @@ public class PlayerController : MonoBehaviour
     {
         // Hacemos que se mueva correctamente al pulsar las teclas de movimiento
         velX = Input.GetAxisRaw("Horizontal");
-        velY = rbPlayer.velocity.y;
+        velY = _rbPlayer.velocity.y;
 
-        rbPlayer.velocity = new Vector2(velX * speed, velY);
+        _rbPlayer.velocity = new Vector2(velX * speed, velY);
     }
 
      public void FlipCharacter()
     {
         // Rotamos el personaje cuando cambia de dirección.
-        if((rbPlayer.velocity.x > 0)||velX ==1)
+        if((_rbPlayer.velocity.x > 0)||velX ==1)
         {
             transform.localScale = new Vector3(1,1,1);//md
         }
@@ -85,7 +85,7 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetButton("Jump") && isGrounded)
         {
-            rbPlayer.AddForce(Vector2.up * jumpForce);
+            _rbPlayer.AddForce(Vector2.up * jumpForce);
         }
     }
 
