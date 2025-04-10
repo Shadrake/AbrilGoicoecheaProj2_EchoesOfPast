@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    public string name;
+    public float enemyLife;
+    public float enemySpeed;
+    
     // Start is called before the first frame update
     void Start()
     {

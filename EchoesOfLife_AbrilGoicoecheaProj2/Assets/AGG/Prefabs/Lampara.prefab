@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3769578126954641814}
   - component: {fileID: 3965409367638394684}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: spr_lampLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8738138572512496783}
   - component: {fileID: 3788422923332137064}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: spr_lampOn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -181,9 +181,9 @@ GameObject:
   - component: {fileID: 8608508723470238848}
   - component: {fileID: 3168223055060629732}
   - component: {fileID: 7864272539771237525}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Lampara
-  m_TagString: Untagged
+  m_TagString: Lamp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

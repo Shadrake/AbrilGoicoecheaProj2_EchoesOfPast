@@ -41,7 +41,11 @@ public class PlayerProjectile : MonoBehaviour
         //Cuando choca con un enemigo hace daño.
         if(collision.CompareTag("Enemy"))
         {
-            Debug.Log("Damage enemy");
+            DestroyProjectile();
+        }
+
+        else if(collision.CompareTag("Lamp"))
+        {
             DestroyProjectile();
         }
     }
